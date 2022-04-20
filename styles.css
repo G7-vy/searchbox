@@ -1,0 +1,58 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%; 
+  }
+
+
+  td,th {
+   
+  width:25%; 
+    padding: 8px;
+    text-align: center;
+    
+  }
+  td{
+    background-color:lightseagreen;
+      text-align: center;
+  }
+  
+  td:nth-child(even) {
+    background-color: darkseagreen;
+  }
+h2{
+  text-align: center;
+}
+.divbody{
+    background-color:darkgray;
+    border-radius:5px;
+    padding:5px;
+}
+.divbody:hover{
+    background-color: rgb(173, 217, 106);
+}
+.right{
+   text-align: right;
+   font-size: 10px;
+}
+.mid{
+font-size: 14px;
+
+}
+#searchbar{
+  margin-left: 15%;
+  padding:15px;
+  border-radius: 10px;
+}
+
+input[type=text] {
+   width: 30%;
+   -webkit-transition: width 0.15s ease-in-out;
+   transition: width 0.15s ease-in-out;
+}
+
+/* When the input field gets focus,
+     change its width to 100% */
+input[type=text]:focus {
+  width: 70%;
+}
